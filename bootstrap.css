@@ -1,0 +1,70 @@
+/* ====== AJUSTES GENERALES BOOTSTRAP ====== */
+body {
+  background-color: #0b0b0b;
+  color: #eaeaea;
+}
+
+/* Contenedor responsive */
+.container {
+  max-width: 1100px;
+}
+
+/* ====== TIPOGRAFÍA RETRO ====== */
+h1, h2, h3 {
+  font-family: "Press Start 2P", monospace;
+}
+
+/* ====== TARJETAS TIPO ARCADE ====== */
+section {
+  border-radius: 0;
+}
+
+/* ====== LISTAS RESPONSIVE ====== */
+ul {
+  padding-left: 0;
+}
+
+/* ====== BOTÓN BOOTSTRAP RETRO ====== */
+.boton,
+.btn-retro {
+  background-color: #ff2f92;
+  color: #000;
+  border: 4px solid #fff;
+  box-shadow: 4px 4px 0 #00ffea;
+  font-family: "Press Start 2P", monospace;
+}
+
+.boton:hover,
+.btn-retro:hover {
+  background-color: #00ffea;
+  color: #000;
+}
+
+/* ====== HEADER RESPONSIVE ====== */
+header h1 {
+  font-size: clamp(16px, 4vw, 26px);
+}
+
+/* ====== TEXTO RESPONSIVE ====== */
+p, li {
+  font-size: clamp(10px, 2.5vw, 12px);
+}
+
+/* ====== ESPACIADO MOBILE ====== */
+@media (max-width: 768px) {
+  section {
+    margin-bottom: 16px;
+    padding: 12px;
+  }
+
+  header {
+    padding: 12px;
+  }
+}
+
+/* ====== EXTRA LARGE SCREENS ====== */
+@media (min-width: 1200px) {
+  section {
+    padding: 24px;
+  }
+}

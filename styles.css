@@ -1,0 +1,97 @@
+/* Fuente pixelada retro para todo */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  background-color: #2a9d8f; /* fondo azul verdoso */
+  color: #ffe066; /* texto amarillo retro legible */
+  font-family: 'Press Start 2P', monospace;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(135deg, #e76f51, #f4a261); /* gradiente cálido */
+  color: yellow; /* amarillo retro */
+  text-align: center;
+  padding: 4rem 1rem;
+  text-shadow: 2px 2px #264653;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: #264653; /* azul oscuro */
+}
+
+.nav-link {
+  color: yellow !important; /* amarillo retro */
+  font-weight: bold;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: white;
+}
+
+/* SECCIONES */
+section {
+  padding: 3rem 1rem;
+}
+
+/* Títulos de secciones */
+.container h2 {
+  color: #ffe066; /* amarillo retro */
+  text-shadow: 1px 1px #1a535c;
+  margin-bottom: 1rem;
+}
+
+/* CARDS */
+.card {
+  background-color: #457b9d; /* azul medio */
+  color: #ffe066; /* texto amarillo retro */
+  border: 2px solid #1a535c;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.card-title {
+  color: #f4a261; /* naranja para resaltar */
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+/* LISTAS */
+ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* LINKS */
+a {
+  color: #ffe066; /* amarillo retro */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f4a261;
+}
+
+/* FOOTER */
+footer {
+  background-color: #264653;
+  color: #ffe066; /* amarillo retro */
+  text-align: center;
+  padding: 1rem 0;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+  .card-title {
+    font-size: 0.9rem;
+  }
+}
